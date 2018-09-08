@@ -1,7 +1,7 @@
 ---
 title: "Hackathon"
-date: 2018-07-27T21:53:30+01:00
-draft: true
+date: 2018-07-27T17:00:00
+draft: false
 ---
 
 We have a hackathon coming up.

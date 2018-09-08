@@ -1,6 +1,6 @@
 baseURL = "https://hach.arlyon.co/"
 languageCode = "en-us"
-title = "HackSock"
+title = "EntSoc"
 
 theme = "CAPSLOCK"
 
@@ -9,6 +9,7 @@ pygmentsOptions = "linenos=table"
 pygmentsStyle = "bw"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
+buildFuture = true
 
 [params]
     description = "A group of people dedicated to small prototypes of big ideas."
@@ -16,16 +17,10 @@ pygmentsCodeFences = true
     service_worker = false
     show_contact_in_head = false
     show_contact_in_footer = true
-    fontawesome_sets = ["brands"]
-    copyright = "please vote"
+    copyright = "all content on this site is free under the MIT license"
 
-    foreground = "#000"
-
-[[params.contact]]
-    icon_type = "fab"
-    icon_name = "facebook"
-    link = "https://www.facebook.com/hacksock"
-    text = "FB"
+    foreground = "#00F"
+    background = "#F00"
 
 [outputs]
     home = [ "HTML", "RSS", "HEADERS" ]
