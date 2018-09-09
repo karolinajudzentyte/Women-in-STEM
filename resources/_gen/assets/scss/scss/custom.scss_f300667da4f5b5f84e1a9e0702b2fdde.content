@@ -1,2 +1,13 @@
 body > header {
-  font-style: italic; }
+  font-style: italic;
+  background-size: 5em;
+  margin-bottom: 2em; }
+
+@media screen and (min-width: 800px) {
+  body > header {
+    background-image: url("/squiggles.svg"); }
+    body > header a {
+      margin: 4rem auto; }
+      body > header a h1 {
+        background-color: white;
+        border: 0.25rem solid black; } }
