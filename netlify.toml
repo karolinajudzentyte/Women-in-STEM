@@ -1,0 +1,4 @@
+[build.environment]
+    TZ = "Europe/London"
+[context.production.environment]
+  HUGO_VERSION = "0.47"

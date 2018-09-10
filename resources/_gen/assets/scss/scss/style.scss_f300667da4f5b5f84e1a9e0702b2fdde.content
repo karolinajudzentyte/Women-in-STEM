@@ -473,3 +473,8 @@ table:not(.highlight):not(.lntable) {
 img#signature {
   max-height: 2.5em;
   margin-top: 1em; }
+
+img.symbol {
+  height: 4em;
+  display: block;
+  margin: 0 auto; }
