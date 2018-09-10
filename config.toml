@@ -17,10 +17,10 @@ buildFuture = true
     service_worker = false
     show_contact_in_head = false
     show_contact_in_footer = true
-    copyright = "all content on this site is free under the MIT license"
+    copyright = "all content on this site is free under the MIT license on [github](https://github.com/arlyon/entsoc)"
 
-    foreground = "#00F"
-    background = "#F00"
+    foreground = "#000"
+    background = "#FFF"
 
 [outputs]
     home = [ "HTML", "RSS", "HEADERS" ]

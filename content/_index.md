@@ -1,5 +1,5 @@
-EntSock is an open non-profit community at Heriot Watt based around
-entrepreneurship, technology, innovation, programming, and learning.
+The Heriot-Watt entrepreneurship society is an open non-profit community
+based around technology, innovation, programming, and learning.
 We want to build a space to meet like minded people and work together.
 
 We host courses and events to encourage rapid development of ideas, covering all

@@ -5,7 +5,8 @@ body > header {
 
 @media screen and (min-width: 800px) {
   body > header {
-    background-image: url("/squiggles.svg"); }
+    background-image: url("/squiggles.svg");
+    border-bottom: 0.25em solid black; }
     body > header a {
       margin: 4rem auto; }
       body > header a h1 {
