@@ -1,4 +1,4 @@
-baseURL = "https://hach.arlyon.co/"
+baseURL = "https://hw.entsoc.io/"
 languageCode = "en-us"
 title = "Heriot-Watt EntSoc"
 
@@ -10,6 +10,7 @@ pygmentsStyle = "bw"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 buildFuture = true
+summaryLength = 20
 
 [params]
     description = "A group of people dedicated to small prototypes of big ideas."
@@ -18,7 +19,6 @@ buildFuture = true
     show_contact_in_head = false
     show_contact_in_footer = true
     copyright = "all content on this site is free under the MIT license on [github](https://github.com/arlyon/entsoc)"
-
     foreground = "#000"
     background = "#FFF"
 
