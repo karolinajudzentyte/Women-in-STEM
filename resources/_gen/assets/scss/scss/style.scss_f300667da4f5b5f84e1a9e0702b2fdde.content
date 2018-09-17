@@ -441,7 +441,7 @@ body {
     padding: 2rem 0; }
     body > footer .contact {
       font-size: 2em;
-      margin: 0 0 1.5em 0; }
+      margin: 0 0 3em 0; }
       body > footer .contact a {
         text-decoration: none; }
 
@@ -474,7 +474,14 @@ img#signature {
   max-height: 2.5em;
   margin-top: 1em; }
 
-img.symbol {
-  height: 4em;
+pre {
+  overflow-x: scroll;
+  font-family: inherit; }
+
+p code {
+  font-family: inherit;
+  font-weight: 600; }
+
+.symbol {
   display: block;
   margin: 0 auto; }

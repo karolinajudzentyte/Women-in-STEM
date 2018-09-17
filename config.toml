@@ -18,9 +18,16 @@ summaryLength = 20
     service_worker = false
     show_contact_in_head = false
     show_contact_in_footer = true
+    fontawesome_sets = ["light"]
     copyright = "all content on this site is free under the MIT license on [github](https://github.com/arlyon/entsoc)"
     foreground = "#000"
     background = "#FFF"
+
+[[params.contact]]
+    icon_type = "fal"
+    icon_name = "at"
+    link = "mailto:hw@entsoc.io"
+    text = "contact"
 
 [outputs]
     home = [ "HTML", "RSS", "HEADERS" ]
