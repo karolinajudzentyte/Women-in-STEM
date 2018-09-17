@@ -1,9 +1,12 @@
 ---
-title: 'Week One: Casta Spes'
+title: 'Week One: Casta Spes Technologies'
 date: 2018-09-11 17:00:00 +0000
-
+draft: false
 ---
-To kick off our year, we invited Heriot-Watt alumni Selby Cary and his business partner Mike McDonald to speak about their foray into the world of entrepreneurship. They spoke to us about their company [Casta
+
+To kick off our year, we invited Heriot-Watt alumni Selby Cary and his
+business partner Mike McDonald to speak about their foray into the world
+of entrepreneurship. They spoke to us about their company [Casta
 Spes Technologies](https://cstechnologies.co.uk/) and some of the
 lessons they learned in the first few years of their journey. Filled
 with anecdotes and stories it was refreshing to get a more personal
