@@ -4,7 +4,7 @@
       display: grid;
       grid-template-rows: auto auto auto auto auto;
       grid-template-columns: 1fr 1fr;
-      grid-template-areas: "information skills" "letter      letter" "education   projects" "internships responsibilities"; } }
+      grid-template-areas: "information skills" "letter      letter" "education   projects" "internships responsibilities"; } }
   #information a {
     white-space: nowrap; } }
 
@@ -25,7 +25,7 @@
       display: grid;
       grid-template-columns: 1fr minmax(auto, 650px) 1fr;
       grid-template-rows: auto auto auto auto 1fr auto;
-      grid-template-areas: ". information      ." ". projects         ." ". education        ." ". internships      ." ". responsibilities ." ". skills           ."; }
+      grid-template-areas: ". information      ." ". projects         ." ". education        ." ". internships      ." ". responsibilities ." ". skills           ."; }
       main.cv-overview > #view:after {
         content: 'medium grid 1'; } }
   @media screen and (min-width: 1000px) and (max-width: 1299px) {
@@ -33,7 +33,7 @@
       display: grid;
       grid-template-columns: 1fr minmax(auto, 400px) minmax(auto, 400px) 1fr;
       grid-template-rows: auto auto auto auto;
-      grid-template-areas: ". information      skills      ." ". education        projects    ." ". responsibilities internships ."; }
+      grid-template-areas: ". information      skills      ." ". education        projects    ." ". responsibilities internships ."; }
       main.cv-overview > #view:after {
         content: 'medium grid 2'; } }
   @media screen and (min-width: 1000px) {
@@ -41,7 +41,7 @@
       display: grid;
       grid-template-columns: 1fr 300px minmax(40px, 100px) minmax(300px, 400px) minmax(300px, 400px) 1fr;
       grid-template-rows: 1fr repeat(3, auto) 1fr;
-      grid-template-areas: ". .           . .                .           ." ". information . education        projects    ." ". skills      . education        projects    ." ". skills      . responsibilities internships ." ". .           . .                .           ."; }
+      grid-template-areas: ". .           . .                .           ." ". information . education        projects    ." ". skills      . education        projects    ." ". skills      . responsibilities internships ." ". .           . .                .           ."; }
       main.cv-overview > #skills {
         padding: 0 2em;
         display: block !important; } } }
@@ -51,17 +51,17 @@
     main.cover.cv-overview {
       grid-template-rows: auto auto auto auto auto;
       grid-template-columns: 1fr 1fr;
-      grid-template-areas: "information skills" "letter      letter" "education   projects" "internships responsibilities"; } }
+      grid-template-areas: "information skills" "letter      letter" "education   projects" "internships responsibilities"; } }
   @media screen and (min-width: 1000px) and (max-width: 1599px) {
     main.cover.cv-overview {
       grid-template-columns: 1fr repeat(2, minmax(300px, 400px)) 1fr;
       grid-template-rows: minmax(2em, 1fr) repeat(5, auto) minmax(2em, 1fr);
-      grid-template-areas: ". .                .           ." ". information      information ." ". letter           letter      ." ". education        projects    ." ". responsibilities internships ." ". skills           skills      ." ". .                .           ."; } }
+      grid-template-areas: ". .                .           ." ". information      information ." ". letter           letter      ." ". education        projects    ." ". responsibilities internships ." ". skills           skills      ." ". .                .           ."; } }
   @media screen and (min-width: 1600px) {
     main.cover.cv-overview {
       grid-template-columns: 1fr 300px minmax(0px, 50px) minmax(300px, 400px) minmax(300px, 400px) minmax(0px, 50px) minmax(400px, 500px) 1fr;
       grid-template-rows: 1fr repeat(3, auto) 1fr;
-      grid-template-areas: ". .           . .                .           . .      ." ". information . education        projects    . letter ." ". skills      . education        projects    . letter ." ". skills      . responsibilities internships . letter ." ". .           . .                .           . .      ."; }
+      grid-template-areas: ". .           . .                .           . .      ." ". information . education        projects    . letter ." ". skills      . education        projects    . letter ." ". skills      . responsibilities internships . letter ." ". .           . .                .           . .      ."; }
       main.cover.cv-overview > #skills {
         display: block; }
       main.cover.cv-overview > #letter > *:first-child {

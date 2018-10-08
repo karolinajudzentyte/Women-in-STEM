@@ -1,6 +1,6 @@
 baseURL = "https://hw.entsoc.io/"
 languageCode = "en-us"
-title = "Heriot-Watt EntSoc"
+title = "Heriot Watt Women in STEM"
 
 theme = "CAPSLOCK"
 
@@ -19,13 +19,13 @@ summaryLength = 20
     show_contact_in_head = false
     show_contact_in_footer = true
     fontawesome_sets = ["light"]
-    copyright = "all content on this site is free under the MIT license on [github](https://github.com/arlyon/entsoc)"
+    copyright = "all content on this site is free under the MIT license on [github](https://github.com/karolinajudzentyte/Women-in-STEM)"
     foreground = "#000"
     background = "#FFF"
 
 [[params.contact]]
     icon_type = "fal"
-    icon_name = "at"
+    icon_name = "space-shuttle"
     link = "mailto:hw@entsoc.io"
     text = "contact"
 
